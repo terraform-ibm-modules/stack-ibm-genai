@@ -32,7 +32,7 @@
 			"type": "string",
 			"hidden": false,
 			"default": "rag-services",
-			"description": "The name of the resource group that is created by this solution. The actual name is prefixed with the value of the input 'prefix'.  All resources created by this solution are deployed in this resource group. ",
+			"description": "The name of the resource group that is created by this solution. The actual name is prefixed with the value of the input 'prefix'.  All resources created by this solution are deployed in this resource group.",
 			"custom_config": {}
 		},
 		{
