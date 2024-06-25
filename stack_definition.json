@@ -147,7 +147,7 @@
 			"inputs": [
 				{
 					"name": "resource_group_name",
-					"value": "ref:../1 - Account Infrastructure Base/outputs/security_resource_group_name"
+					"value": "ref:../../members/1 - Account Infrastructure Base/outputs/security_resource_group_name"
 				},
 				{
 					"name": "use_existing_resource_group",
@@ -173,7 +173,7 @@
 			"inputs": [
 				{
 					"name": "resource_group_name",
-					"value": "ref:../1 - Account Infrastructure Base/outputs/security_resource_group_name"
+					"value": "ref:../../members/1 - Account Infrastructure Base/outputs/security_resource_group_name"
 				},
 				{
 					"name": "existing_resource_group",
@@ -195,7 +195,7 @@
 			"inputs": [
 				{
 					"name": "resource_group_name",
-					"value": "ref:../1 - Account Infrastructure Base/outputs/observability_resource_group_name"
+					"value": "ref:../../members/1 - Account Infrastructure Base/outputs/observability_resource_group_name"
 				},
 				{
 					"name": "use_existing_resource_group",
@@ -257,7 +257,7 @@
 				},
 				{
 					"name": "resource_group_name",
-					"value": "ref:../1 - Account Infrastructure Base/outputs/audit_resource_group_name"
+					"value": "ref:../../members/1 - Account Infrastructure Base/outputs/audit_resource_group_name"
 				},
 				{
 					"name": "use_existing_resource_group",
@@ -283,7 +283,7 @@
 			"inputs": [
 				{
 					"name": "resource_group_name",
-					"value": "ref:../1 - Account Infrastructure Base/outputs/security_resource_group_name"
+					"value": "ref:../../members/1 - Account Infrastructure Base/outputs/security_resource_group_name"
 				},
 				{
 					"name": "use_existing_resource_group",
@@ -341,7 +341,7 @@
 			"inputs": [
 				{
 					"name": "resource_group_name",
-					"value": "ref:../1 - Account Infrastructure Base/outputs/security_resource_group_name"
+					"value": "ref:../../members/1 - Account Infrastructure Base/outputs/security_resource_group_name"
 				},
 				{
 					"name": "use_existing_resource_group",
@@ -383,7 +383,7 @@
 				},
 				{
 					"name": "resource_group_name",
-					"value": "ref:../1 - Account Infrastructure Base/outputs/workload_resource_group_name"
+					"value": "ref:../../members/1 - Account Infrastructure Base/outputs/workload_resource_group_name"
 				},
 				{
 					"name": "location",
