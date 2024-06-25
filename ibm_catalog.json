@@ -53,6 +53,7 @@
 				{
 					"label": "GenAI Stack",
 					"name": "genai-stack-1234",
+					"index": 50,
 					"licenses": [
 						{
 							"id": "LICENSE",
