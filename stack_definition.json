@@ -273,7 +273,7 @@
 				},
 				{
 					"name": "existing_monitoring_crn",
-					"value": "ref:../../members/2b%20-%20Security%20Service%20-%20Object%20storage/outputs/cloud_monitoring_crn"
+					"value": "ref:../../members/3%20-%20Security%20Service%20-%20Observability/outputs/cloud_monitoring_crn"
 				}
 			],
 			"name": "4 - Security Service - Event Notifications",
