@@ -10,14 +10,6 @@
 			"custom_config": {}
 		},
 		{
-			"name": "signing_key",
-			"required": false,
-			"type": "password",
-			"hidden": false,
-			"description": "The key used to sign the application image built by the CI pipeline deployed in this solution; please refer to the documentation at https://github.com/terraform-ibm-modules/stack-retrieval-augmented-generation/blob/main/README.md for generating the key; if not set, all resources will deploy successfully, but the initial CI pipeline execution will fail at the signing step.",
-			"custom_config": {}
-		},
-		{
 			"name": "region",
 			"required": false,
 			"type": "string",
@@ -327,7 +319,7 @@
 				},
 				{
 					"name": "profile_attachments",
-					"value": ["CIS IBM Cloud Foundations Benchmark"]
+					"value": ["AI ICT Guardrails"]
 				},
 				{
 					"name": "scc_en_email_list",
@@ -369,7 +361,7 @@
 				},
 				{
 					"name": "service_plan",
-					"value": "ref:../../inputs/sm_service_plan"
+					"value": "ref:../../inputs/secret_manager_service_plan"
 				}
 			],
 			"name": "5b - Security Service - Secrets Manager",
