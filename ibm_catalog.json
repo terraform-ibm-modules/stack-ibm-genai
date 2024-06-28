@@ -47,7 +47,7 @@
 			],
 			"flavors": [
 				{
-					"label": "Generative AI Stack",
+					"label": "Gen AI Stack",
 					"name": "genai-stack",
 					"index": 50,
 					"licenses": [
