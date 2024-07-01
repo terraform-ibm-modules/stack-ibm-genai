@@ -40,7 +40,7 @@
 			"required": false,
 			"type": "string",
 			"hidden": false,
-			"default": "trial",
+			"default": "standard",
 			"description": "The service/pricing plan to use when provisioning a new Secrets Manager instance. Only one trial instance is allowed per account.",
 			"custom_config": {}
 		},
@@ -58,7 +58,7 @@
 			"required": false,
 			"type": "boolean",
 			"hidden": false,
-			"default": false,
+			"default": true,
 			"description": "Whether to provision logging and monitoring instances are configured to receive all platform logs and metrics in the target region. There can only be one instance per region provisioned for platform logs/metrics.",
 			"custom_config": {}
 		},
