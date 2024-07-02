@@ -1,7 +1,7 @@
 {
 	"products": [
 		{
-			"label": "Watson X - Generative AI",
+			"label": "(POC) WatsonX.ai SaaS with Assistant and Governance",
 			"name": "Watson_X_-_Generative_AI",
 			"product_kind": "solution",
 			"tags": [
