@@ -49,7 +49,6 @@
 				{
 					"label": "Standard",
 					"name": "genai-stack-standard",
-					"index": 50,
 					"licenses": [
 						{
 							"id": "LICENSE",
