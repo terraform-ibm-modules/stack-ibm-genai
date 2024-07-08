@@ -258,12 +258,14 @@
 							"key": "en_email_list",
 							"type": "array",
 							"default_value": [],
+							"description": "The list of email addresses to notify when Security and Compliance Center triggers an event.",
 							"required": false
 						},
 						{
 							"key": "scc_service_plan",
 							"type": "string",
 							"default_value": "security-compliance-center-standard-plan",
+							"description": "The service/pricing plan to use when provisioning a new Security Compliance Center instance. Possible values: `security-compliance-center-standard-plan`, `security-compliance-center-trial-plan`.",
 							"required": false
 						}
 					],
