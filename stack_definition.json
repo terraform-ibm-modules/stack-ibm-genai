@@ -416,6 +416,44 @@
 			],
 			"name": "6 - WatsonX SaaS services",
 			"version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.a8504fac-eb37-4aa0-a284-f26e876b5750-global"
+		},
+		{
+			"inputs": [
+				{
+					"name": "use_existing_resource_group",
+					"value": true
+				},
+				{
+					"name": "resource_group_name",
+					"value": "ref:../../members/1%20-%20Account%20Infrastructure%20Base/outputs/observability_resource_group_name"
+				},
+				{
+					"name": "region",
+					"value": "ref:../../inputs/region"
+				},
+				{
+					"name": "prefix",
+					"value": "ref:../../inputs/prefix"
+				},
+				{
+					"name": "plan",
+					"value": "platinum"
+				},
+				{
+					"name": "elasticsearch_version",
+					"value": "8.12"
+				},
+				{
+					"name": "existing_kms_instance_crn",
+					"value": "ref:../../members/2a%20-%20Security%20Service%20-%20Key%20Management/outputs/kms_instance_crn"
+				},
+				{
+					"name": "kms_endpoint_type",
+					"value": "private"
+				}
+			],	
+			"name": "7 - Databases for Elasticsearch",
+			"version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.c5ea982b-011a-46c8-a49d-0de273f40b46-global"
 		}
 	]
 }
