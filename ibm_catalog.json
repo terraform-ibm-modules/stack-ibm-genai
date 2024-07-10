@@ -136,7 +136,13 @@
 							"role_crns": [
 								"crn:v1:bluemix:public:iam::::role:Editor"
 							]
-						}
+						},
+						{
+							"service_name": "databases-for-elasticsearch",
+							"role_crns": [
+							  "crn:v1:bluemix:public:iam::::role:Editor"
+							]
+						  }
 					],
 					"architecture": {
 						"features": [

@@ -425,7 +425,7 @@
 				},
 				{
 					"name": "resource_group_name",
-					"value": "ref:../../members/1%20-%20Account%20Infrastructure%20Base/outputs/observability_resource_group_name"
+					"value": "ref:../../members/1%20-%20Account%20Infrastructure%20Base/outputs/workload_resource_group_name"
 				},
 				{
 					"name": "region",
@@ -450,6 +450,10 @@
 				{
 					"name": "kms_endpoint_type",
 					"value": "private"
+				},
+				{
+					"name": "member_host_flavor",
+					"value": "b3c.4x16.encrypted"
 				}
 			],	
 			"name": "7 - Databases for Elasticsearch",
