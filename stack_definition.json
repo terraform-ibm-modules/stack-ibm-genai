@@ -459,5 +459,23 @@
 			"name": "7 - Databases for Elasticsearch",
 			"version_locator": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3.c5ea982b-011a-46c8-a49d-0de273f40b46-global"
 		}
+	],
+	"outputs": [
+		{
+		  "name": "es_hostname",
+		  "value": "ref:./members/7 - Databases for Elasticsearch/outputs/hostname"
+		},
+		{
+		  "name": "es_port",
+		  "value": "ref:./members/7 - Databases for Elasticsearch/outputs/port"
+		},
+		{
+		  "name": "es_certificate_base64",
+		  "value": "ref:./members/7 - Databases for Elasticsearch/outputs/certificate_base64"
+		},
+		{
+		  "name": "es_service_credentials_json",
+		  "value": "ref:./members/7 - Databases for Elasticsearch/outputs/service_credentials_json"
+		}
 	]
 }
