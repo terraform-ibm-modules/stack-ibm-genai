@@ -77,6 +77,7 @@
 			"type": "array",
 			"hidden": false,
 			"default": [],
+			"description": "List of emails to configure event notifications.",
 			"custom_config": {}
 		},
 		{
@@ -85,6 +86,7 @@
 			"type": "string",
 			"hidden": false,
 			"default": "security-compliance-center-standard-plan",
+			"description": "The pricing plan to use for the IBM Cloud Security and Compliance Center.",
 			"custom_config": {}
 		}
 	],
@@ -454,6 +456,15 @@
 				{
 					"name": "member_host_flavor",
 					"value": "b3c.4x16.encrypted"
+				},
+				{
+					"name": "service_credential_names",
+					"value": {
+						"elasticsearch_admin" : "Administrator",
+						"elasticsearch_reader" : "Operator",
+						"elasticsearch_viewer" : "Viewer",
+						"elasticsearch_editor" : "Editor"
+					}
 				}
 			],	
 			"name": "7 - Databases for Elasticsearch",
@@ -462,19 +473,15 @@
 	],
 	"outputs": [
 		{
-		  "name": "es_hostname",
+		  "name": "elasticsearch_hostname",
 		  "value": "ref:./members/7 - Databases for Elasticsearch/outputs/hostname"
 		},
 		{
-		  "name": "es_port",
+		  "name": "elasticsearch_port",
 		  "value": "ref:./members/7 - Databases for Elasticsearch/outputs/port"
 		},
 		{
-		  "name": "es_certificate_base64",
-		  "value": "ref:./members/7 - Databases for Elasticsearch/outputs/certificate_base64"
-		},
-		{
-		  "name": "es_service_credentials_json",
+		  "name": "elasticsearch_service_credentials_json",
 		  "value": "ref:./members/7 - Databases for Elasticsearch/outputs/service_credentials_json"
 		}
 	]
