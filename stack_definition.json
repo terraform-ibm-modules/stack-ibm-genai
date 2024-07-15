@@ -460,10 +460,9 @@
 				{
 					"name": "service_credential_names",
 					"value": {
-						"elasticsearch_admin" : "Administrator",
-						"elasticsearch_reader" : "Operator",
-						"elasticsearch_viewer" : "Viewer",
-						"elasticsearch_editor" : "Editor"
+						"elastic_db_admin" : "Administrator",
+						"wxasst_db_user" : "Editor",
+						"toolchain_db_user" : "Editor"
 					}
 				}
 			],	
