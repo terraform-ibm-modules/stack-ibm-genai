@@ -258,13 +258,25 @@
 							"key": "en_email_list",
 							"type": "array",
 							"default_value": [],
+							"description": "List of emails to configure event notifications.",
 							"required": false
 						},
 						{
 							"key": "scc_service_plan",
 							"type": "string",
 							"default_value": "security-compliance-center-standard-plan",
-							"required": false
+							"description": "The pricing plan to use for the IBM Cloud Security and Compliance Center.",
+							"required": false,
+							"options": [
+								{
+									"displayname": "standard",
+									"value": "security-compliance-center-standard-plan"
+								},
+								{
+									"displayname": "trial",
+									"value": "security-compliance-center-trial-plan"
+								}
+							]
 						}
 					],
 					"install_type": "fullstack"
