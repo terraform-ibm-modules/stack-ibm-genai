@@ -1,8 +1,8 @@
 {
 	"products": [
 		{
-			"label": "Gen AI",
-			"name": "Gen_AI",
+			"label": "Testing - Gen AI",
+			"name": "Testing_Gen_AI",
 			"version": "1.0.2",
 			"product_kind": "solution",
 			"tags": [
