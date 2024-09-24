@@ -188,7 +188,8 @@
 								}
 							],
 							"name": "Testing_Core_Security_Services",
-							"optional": true
+							"optional": true,
+							"version": "^1.0.0"
 						}
 					],
 					"dependency_version_2": true,
