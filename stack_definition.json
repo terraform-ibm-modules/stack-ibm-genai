@@ -49,10 +49,6 @@
 					"value": ""
 				},
 				{
-					"name": "watsonx_admin_api_key",
-					"value": "ref:../../inputs/watsonx_admin_api_key"
-				},
-				{
 					"name": "resource_group_name",
 					"value": "ref:../../inputs/existing_resource_group_name"
 				},

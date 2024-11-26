@@ -1,13 +1,22 @@
 {
 	"products": [
 		{
-			"label": "[Add-ons Beta] Generative AI with WatsonX and ElasticSearch",
+			"label": "[Add-ons Beta] Generative AI with WatsonX and Elasticsearch",
 			"name": "Testing_Gen_AI",
 			"product_kind": "solution",
 			"tags": [
-				"watson"
+				"watson",
+				"watsonx.ai",
+				"ibm_created"
+			],
+			"keywords": [
+				"watson",
+				"watsonx",
+				"ai"
 			],
 			"offering_icon_url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iaWNvbiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogbm9uZTsKICAgICAgfQoKICAgICAgLmNscy0xLCAuY2xzLTIgewogICAgICAgIHN0cm9rZS13aWR0aDogMHB4OwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Im0xOSwyMnYtMmgxdi03aC0xdi0yaDR2MmgtMXY3aDF2MmgtNFoiLz4KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Im0xNS41MDA1LDIyaDJsLTMuNTAwNS0xMWgtM2wtMy40OTY2LDExaDEuOTk4OGwuNjAxOC0yaDQuNzc4MWwuNjE4NCwyWm0tNC43OTQ3LTRsMS42Mjg0LTUuNDExMS4yNTU5LS4wMDI0LDEuNjczNiw1LjQxMzZoLTMuNTU3OVoiLz4KICA8cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMzIgNCAyOCA0IDI4IDAgMjYgMCAyNiA0IDIyIDQgMjIgNiAyNiA2IDI2IDEwIDI4IDEwIDI4IDYgMzIgNiAzMiA0Ii8+CiAgPHJlY3QgY2xhc3M9ImNscy0yIiB4PSIzMCIgeT0iMTIiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiLz4KICA8cmVjdCBjbGFzcz0iY2xzLTIiIHg9IjE4IiB5PSIwIiB3aWR0aD0iMiIgaGVpZ2h0PSIyIi8+CiAgPHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjMyIDMyIDAgMzIgMCAwIDE0IDAgMTQgMiAyIDIgMiAzMCAzMCAzMCAzMCAxOCAzMiAxOCAzMiAzMiIvPgogIDxyZWN0IGlkPSJfVHJhbnNwYXJlbnRfUmVjdGFuZ2xlXyIgZGF0YS1uYW1lPSImYW1wO2x0O1RyYW5zcGFyZW50IFJlY3RhbmdsZSZhbXA7Z3Q7IiBjbGFzcz0iY2xzLTEiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIvPgo8L3N2Zz4=",
+			"short_description": "Deploy Watsonx.ai SaaS and Database for Elasticsearch as a foundation for generative AI applications.",
+			"long_description": "The Generative AI with WatsonX and Elasticsearch deployable architecture easily deploys and embeds AI across your business, manages all data sources, and accelerates responsible AI workflows on one platform.",
 			"flavors": [
 				{
 					"label": "Basic",
@@ -117,10 +126,6 @@
 					"architecture": {
 						"features": [
 							{
-								"title": "Retrieval Augmented Generation sample pattern",
-								"description": "Deploy a banking retrieval augmented generation (RAG) sample application to IBM Cloud Code Engine using Continous Delivery."
-							},
-							{
 								"title": "Ensure Observability",
 								"description": "The architecture provides observability by deploying services such as IBM Log Analysis, IBM Monitoring, IBM Activity Tracker, and log retention through Cloud Object Storage buckets."
 							},
@@ -190,6 +195,7 @@
 							"version": ">=1.0.7",
 							"catalog_id": "f64499c8-eb50-4985-bf91-29f9e605a433",
 							"optional": true,
+							"on_by_default": true,
 							"input_mapping": [
 
 							]
@@ -203,6 +209,7 @@
 							],
 							"catalog_id": "f64499c8-eb50-4985-bf91-29f9e605a433",
 							"optional": true,
+							"on_by_default": true,
 							"input_mapping": [
 								{
 									"dependency_output": "kms_instance_crn",
