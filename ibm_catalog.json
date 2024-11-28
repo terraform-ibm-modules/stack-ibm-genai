@@ -1,259 +1,247 @@
 {
-	"products": [
-		{
-			"label": "[Add-ons Beta] Generative AI with WatsonX and Elasticsearch",
-			"name": "Testing_Gen_AI",
-			"product_kind": "solution",
-			"tags": [
-				"watson",
-				"watsonx.ai",
-				"ibm_created"
-			],
-			"keywords": [
-				"watson",
-				"watsonx",
-				"ai"
-			],
-			"offering_icon_url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iaWNvbiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogbm9uZTsKICAgICAgfQoKICAgICAgLmNscy0xLCAuY2xzLTIgewogICAgICAgIHN0cm9rZS13aWR0aDogMHB4OwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Im0xOSwyMnYtMmgxdi03aC0xdi0yaDR2MmgtMXY3aDF2MmgtNFoiLz4KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Im0xNS41MDA1LDIyaDJsLTMuNTAwNS0xMWgtM2wtMy40OTY2LDExaDEuOTk4OGwuNjAxOC0yaDQuNzc4MWwuNjE4NCwyWm0tNC43OTQ3LTRsMS42Mjg0LTUuNDExMS4yNTU5LS4wMDI0LDEuNjczNiw1LjQxMzZoLTMuNTU3OVoiLz4KICA8cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMzIgNCAyOCA0IDI4IDAgMjYgMCAyNiA0IDIyIDQgMjIgNiAyNiA2IDI2IDEwIDI4IDEwIDI4IDYgMzIgNiAzMiA0Ii8+CiAgPHJlY3QgY2xhc3M9ImNscy0yIiB4PSIzMCIgeT0iMTIiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiLz4KICA8cmVjdCBjbGFzcz0iY2xzLTIiIHg9IjE4IiB5PSIwIiB3aWR0aD0iMiIgaGVpZ2h0PSIyIi8+CiAgPHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjMyIDMyIDAgMzIgMCAwIDE0IDAgMTQgMiAyIDIgMiAzMCAzMCAzMCAzMCAxOCAzMiAxOCAzMiAzMiIvPgogIDxyZWN0IGlkPSJfVHJhbnNwYXJlbnRfUmVjdGFuZ2xlXyIgZGF0YS1uYW1lPSImYW1wO2x0O1RyYW5zcGFyZW50IFJlY3RhbmdsZSZhbXA7Z3Q7IiBjbGFzcz0iY2xzLTEiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIvPgo8L3N2Zz4=",
-			"short_description": "Deploy Watsonx.ai SaaS and Database for Elasticsearch as a foundation for generative AI applications.",
-			"long_description": "The Generative AI with WatsonX and Elasticsearch deployable architecture easily deploys and embeds AI across your business, manages all data sources, and accelerates responsible AI workflows on one platform.",
-			"flavors": [
-				{
-					"label": "Basic",
-					"name": "Basic-dda0",
-					"licenses": [
-						{
-							"id": "LICENSE",
-							"name": "LICENSE",
-							"type": "text/plain",
-							"description": "LICENSE"
-						}
-					],
-					"compliance": {
-						"authority": "scc-v3",
-						"profiles": [
-							{
-								"profile_name": "AI ICT Guardrails",
-								"profile_version": "1.0.0"
-							}
-						]
-					},
-					"iam_permissions": [
-						{
-							"service_name": "iam-groups",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Administrator"
-							]
-						},
-						{
-							"service_name": "cloud-object-storage",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::serviceRole:Manager",
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "iam-identity",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Administrator"
-							]
-						},
-						{
-							"service_name": "atracker",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::serviceRole:Writer",
-								"crn:v1:bluemix:public:iam::::role:Administrator"
-							]
-						},
-						{
-							"service_name": "kms",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::serviceRole:Manager",
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "compliance",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::serviceRole:Manager",
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "pm-20",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "data-science-experience",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "aiopenscale",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "conversation",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "discovery",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "databases-for-elasticsearch",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "event-notifications",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::serviceRole:Manager",
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						}
-					],
-					"architecture": {
-						"features": [
-							{
-								"title": "Ensure Observability",
-								"description": "The architecture provides observability by deploying services such as IBM Log Analysis, IBM Monitoring, IBM Activity Tracker, and log retention through Cloud Object Storage buckets."
-							},
-							{
-								"title": "Implement Security",
-								"description": "The architecture ensures security by deploying IBM Key Protect and IBM Secrets Manager."
-							},
-							{
-								"title": "Achieve Regulatory Compliance",
-								"description": "The architecture ensures regulatory compliance by implementing CI/CD/CC pipelines, along with IBM Security Compliance Center (SCC) for secure application lifecycle management."
-							},
-							{
-								"title": "Establish Trust",
-								"description": "The architecture ensures trust by configuring the IBM Cloud account to align with compliance settings as defined in the Financial Services framework."
-							}
-						],
-						"diagrams": [
-							{
-								"diagram": {
-									"url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-retrieval-augmented-generation/main/reference-architecture/RAG Pattern v2-part-2.svg",
-									"caption": "Reference architecture",
-									"type": "image/svg+xml",
-									"thumbnail_url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-retrieval-augmented-generation/main/reference-architecture/RAG Pattern v2-part-2.svg"
-								},
-								"description": "Reference architecture"
-							},
-							{
-								"diagram": {
-									"url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-retrieval-augmented-generation/main/reference-architecture/rag-stack.svg",
-									"caption": "Solution components",
-									"type": "image/svg+xml",
-									"thumbnail_url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-retrieval-augmented-generation/main/reference-architecture/rag-stack.svg"
-								},
-								"description": "Solution components"
-							}
-						]
-					},
-					"dependencies": [
-						{
-							"name": "deploy-arch-ibm-account-infra-base",
-							"catalog_id": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3",
-							"flavors": [
-								"standard"
-							],
-							"id": "63641cec-6093-4b4f-b7b0-98d2f4185cd6-global",
-							"input_mapping": [
-								{
-									"dependency_output": "workload_resource_group_name",
-									"version_input": "existing_resource_group_name"
-								},
-								{
-									"version_input": "use_existing_resource_group",
-									"value": true
-								}
-							],
-							"optional": true,	
-							"on_by_default": true,						
-							"version": ">=1.11.6"
-						},
-						{
-							"name": "testing-deploy-arch-ibm-observability",
-							"flavors": [
-								"instances",
-								"agents"
-							],
-							"id": "daf2cf91-2384-4205-b7f4-621299a4896d",
-							"version": ">=1.0.7",
-							"catalog_id": "f64499c8-eb50-4985-bf91-29f9e605a433",
-							"optional": true,
-							"on_by_default": true,
-							"input_mapping": [
-
-							]
-						},
-						{
-							"name": "testing-deploy-arch-ibm-kms",
-							"id": "85fdbd7a-8c77-4abd-b716-653a31f3aba9",
-							"version": ">=1.0.1",
-							"flavors": [
-								"standard"
-							],
-							"catalog_id": "f64499c8-eb50-4985-bf91-29f9e605a433",
-							"optional": true,
-							"on_by_default": true,
-							"input_mapping": [
-								{
-									"dependency_output": "kms_instance_crn",
-									"version_input": "existing_kms_instance_crn"
-								}
-							]
-						}
-					],
-					"dependency_version_2": true,
-					"configuration": [
-						{
-							"key": "region",
-							"type": "string",
-							"default_value": "us-south",
-							"required": false
-						},
-						{
-							"key": "elasticsearch_plan",
-							"type": "string",
-							"default_value": "enterprise",
-							"required": false
-						},
-						{
-							"key": "prefix",
-							"type": "string",
-							"default_value": "rag",
-							"required": true
-						},
-						{
-							"key": "existing_kms_instance_crn",
-							"type": "string",
-							"default_value": "",
-							"required": false
-						},
-						{
-							"key": "existing_resource_group_name",
-							"type": "string",
-							"default_value": "default",
-							"required": true
-						}
-					],
-					"install_type": "extension"
-				}
-			]
-		}
-	]
+  "products": [
+    {
+      "label": "[Add-ons Beta] Generative AI with WatsonX and Elasticsearch",
+      "name": "Testing_Gen_AI",
+      "product_kind": "solution",
+      "tags": [
+        "watson",
+        "watsonx.ai",
+        "ibm_created"
+      ],
+      "keywords": [
+        "watson",
+        "watsonx",
+        "ai"
+      ],
+      "offering_icon_url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iaWNvbiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogbm9uZTsKICAgICAgfQoKICAgICAgLmNscy0xLCAuY2xzLTIgewogICAgICAgIHN0cm9rZS13aWR0aDogMHB4OwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Im0xOSwyMnYtMmgxdi03aC0xdi0yaDR2MmgtMXY3aDF2MmgtNFoiLz4KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Im0xNS41MDA1LDIyaDJsLTMuNTAwNS0xMWgtM2wtMy40OTY2LDExaDEuOTk4OGwuNjAxOC0yaDQuNzc4MWwuNjE4NCwyWm0tNC43OTQ3LTRsMS42Mjg0LTUuNDExMS4yNTU5LS4wMDI0LDEuNjczNiw1LjQxMzZoLTMuNTU3OVoiLz4KICA8cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMzIgNCAyOCA0IDI4IDAgMjYgMCAyNiA0IDIyIDQgMjIgNiAyNiA2IDI2IDEwIDI4IDEwIDI4IDYgMzIgNiAzMiA0Ii8+CiAgPHJlY3QgY2xhc3M9ImNscy0yIiB4PSIzMCIgeT0iMTIiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiLz4KICA8cmVjdCBjbGFzcz0iY2xzLTIiIHg9IjE4IiB5PSIwIiB3aWR0aD0iMiIgaGVpZ2h0PSIyIi8+CiAgPHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjMyIDMyIDAgMzIgMCAwIDE0IDAgMTQgMiAyIDIgMiAzMCAzMCAzMCAzMCAxOCAzMiAxOCAzMiAzMiIvPgogIDxyZWN0IGlkPSJfVHJhbnNwYXJlbnRfUmVjdGFuZ2xlXyIgZGF0YS1uYW1lPSImYW1wO2x0O1RyYW5zcGFyZW50IFJlY3RhbmdsZSZhbXA7Z3Q7IiBjbGFzcz0iY2xzLTEiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIvPgo8L3N2Zz4=",
+      "short_description": "Deploy Watsonx.ai SaaS and Database for Elasticsearch as a foundation for generative AI applications.",
+      "long_description": "The Generative AI with WatsonX and Elasticsearch deployable architecture easily deploys and embeds AI across your business, manages all data sources, and accelerates responsible AI workflows on one platform.",
+      "flavors": [
+        {
+          "label": "Basic",
+          "name": "Basic-dda0",
+          "licenses": [
+            {
+              "id": "LICENSE",
+              "name": "LICENSE",
+              "type": "text/plain",
+              "description": "LICENSE"
+            }
+          ],
+          "compliance": {
+            "authority": "scc-v3",
+            "profiles": [
+              {
+                "profile_name": "AI ICT Guardrails",
+                "profile_version": "1.0.0"
+              }
+            ]
+          },
+          "iam_permissions": [
+            {
+              "service_name": "iam-groups",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::role:Administrator"
+              ]
+            },
+            {
+              "service_name": "cloud-object-storage",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "iam-identity",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::role:Administrator"
+              ]
+            },
+            {
+              "service_name": "atracker",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+                "crn:v1:bluemix:public:iam::::role:Administrator"
+              ]
+            },
+            {
+              "service_name": "kms",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "compliance",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "pm-20",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "data-science-experience",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "aiopenscale",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "conversation",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "discovery",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "databases-for-elasticsearch",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "event-notifications",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            }
+          ],
+          "architecture": {
+            "features": [
+              {
+                "title": "Ensure Observability",
+                "description": "The architecture provides observability by deploying services such as IBM Log Analysis, IBM Monitoring, IBM Activity Tracker, and log retention through Cloud Object Storage buckets."
+              },
+              {
+                "title": "Implement Security",
+                "description": "The architecture ensures security by deploying IBM Key Protect and IBM Secrets Manager."
+              },
+              {
+                "title": "Achieve Regulatory Compliance",
+                "description": "The architecture ensures regulatory compliance by implementing CI/CD/CC pipelines, along with IBM Security Compliance Center (SCC) for secure application lifecycle management."
+              },
+              {
+                "title": "Establish Trust",
+                "description": "The architecture ensures trust by configuring the IBM Cloud account to align with compliance settings as defined in the Financial Services framework."
+              }
+            ],
+            "diagrams": [
+              {
+                "diagram": {
+                  "url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-retrieval-augmented-generation/main/reference-architecture/RAG%Pattern%v2-part-2.svg",
+                  "caption": "Reference architecture",
+                  "type": "image/svg+xml",
+                  "thumbnail_url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-retrieval-augmented-generation/main/reference-architecture/RAG%Pattern%v2-part-2.svg"
+                },
+                "description": "Reference architecture"
+              },
+              {
+                "diagram": {
+                  "url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-retrieval-augmented-generation/main/reference-architecture/rag-stack.svg",
+                  "caption": "Solution components",
+                  "type": "image/svg+xml",
+                  "thumbnail_url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-retrieval-augmented-generation/main/reference-architecture/rag-stack.svg"
+                },
+                "description": "Solution components"
+              }
+            ]
+          },
+          "dependencies": [
+            {
+              "name": "deploy-arch-ibm-account-infra-base",
+              "catalog_id": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3",
+              "flavors": [
+                "standard"
+              ],
+              "id": "63641cec-6093-4b4f-b7b0-98d2f4185cd6-global",
+              "input_mapping": [
+                {
+                  "dependency_output": "workload_resource_group_name",
+                  "version_input": "existing_resource_group_name"
+                },
+                {
+                  "version_input": "use_existing_resource_group",
+                  "value": true
+                }
+              ],
+              "optional": true,
+              "on_by_default": true,
+              "version": ">=1.11.6"
+            },
+            {
+              "name": "testing-deploy-arch-ibm-observability",
+              "flavors": [
+                "instances",
+                "agents"
+              ],
+              "id": "daf2cf91-2384-4205-b7f4-621299a4896d",
+              "version": ">=1.0.7",
+              "catalog_id": "f64499c8-eb50-4985-bf91-29f9e605a433",
+              "optional": true,
+              "on_by_default": true,
+              "input_mapping": []
+            },
+            {
+              "name": "testing-deploy-arch-ibm-kms",
+              "id": "85fdbd7a-8c77-4abd-b716-653a31f3aba9",
+              "version": ">=1.0.1",
+              "flavors": [
+                "standard"
+              ],
+              "catalog_id": "f64499c8-eb50-4985-bf91-29f9e605a433",
+              "optional": true,
+              "on_by_default": true,
+              "input_mapping": [
+                {
+                  "dependency_output": "kms_instance_crn",
+                  "version_input": "existing_kms_instance_crn"
+                }
+              ]
+            }
+          ],
+          "dependency_version_2": true,
+          "configuration": [
+            {
+              "key": "region",
+              "required": false
+            },
+            {
+              "key": "elasticsearch_plan",
+              "required": false
+            },
+            {
+              "key": "prefix",
+              "required": true
+            },
+            {
+              "key": "existing_kms_instance_crn",
+              "required": false
+            },
+            {
+              "key": "existing_resource_group_name",
+              "required": true
+            }
+          ],
+          "install_type": "extension"
+        }
+      ]
+    }
+  ]
 }
