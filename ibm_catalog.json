@@ -16,7 +16,7 @@
       ],
       "offering_icon_url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iaWNvbiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogbm9uZTsKICAgICAgfQoKICAgICAgLmNscy0xLCAuY2xzLTIgewogICAgICAgIHN0cm9rZS13aWR0aDogMHB4OwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Im0xOSwyMnYtMmgxdi03aC0xdi0yaDR2MmgtMXY3aDF2MmgtNFoiLz4KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Im0xNS41MDA1LDIyaDJsLTMuNTAwNS0xMWgtM2wtMy40OTY2LDExaDEuOTk4OGwuNjAxOC0yaDQuNzc4MWwuNjE4NCwyWm0tNC43OTQ3LTRsMS42Mjg0LTUuNDExMS4yNTU5LS4wMDI0LDEuNjczNiw1LjQxMzZoLTMuNTU3OVoiLz4KICA8cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMzIgNCAyOCA0IDI4IDAgMjYgMCAyNiA0IDIyIDQgMjIgNiAyNiA2IDI2IDEwIDI4IDEwIDI4IDYgMzIgNiAzMiA0Ii8+CiAgPHJlY3QgY2xhc3M9ImNscy0yIiB4PSIzMCIgeT0iMTIiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiLz4KICA8cmVjdCBjbGFzcz0iY2xzLTIiIHg9IjE4IiB5PSIwIiB3aWR0aD0iMiIgaGVpZ2h0PSIyIi8+CiAgPHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjMyIDMyIDAgMzIgMCAwIDE0IDAgMTQgMiAyIDIgMiAzMCAzMCAzMCAzMCAxOCAzMiAxOCAzMiAzMiIvPgogIDxyZWN0IGlkPSJfVHJhbnNwYXJlbnRfUmVjdGFuZ2xlXyIgZGF0YS1uYW1lPSImYW1wO2x0O1RyYW5zcGFyZW50IFJlY3RhbmdsZSZhbXA7Z3Q7IiBjbGFzcz0iY2xzLTEiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIvPgo8L3N2Zz4=",
       "short_description": "Deploy Watsonx.ai SaaS and Database for Elasticsearch as a foundation for generative AI applications.",
-      "long_description": "The Generative AI with WatsonX and Elasticsearch deployable architecture easily deploys and embeds AI across your business, manages all data sources, and accelerates responsible AI workflows on one platform.",
+      "long_description": "Looking for the released version? Go [here](https://cloud.ibm.com/catalog/7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3/architecture/Retrieval_Augmented_Generation_Pattern-5fdd0045-30fc-4013-a8bc-6db9d5447a52-global). Stay here if you want to try an experimental version with upcoming features. \n\n The Generative AI with WatsonX and Elasticsearch deployable architecture easily deploys and embeds AI across your business, manages all data sources, and accelerates responsible AI workflows on one platform.",
       "flavors": [
         {
           "label": "Basic",
@@ -144,23 +144,14 @@
             ],
             "diagrams": [
               {
-                "diagram": {
-                  "url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-retrieval-augmented-generation/main/reference-architecture/RAG Pattern v2-part-2.svg",
-                  "caption": "Reference architecture",
-                  "type": "image/svg+xml",
-                  "thumbnail_url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-retrieval-augmented-generation/main/reference-architecture/RAG Pattern v2-part-2.svg"
-                },
-                "description": "Reference architecture"
-              },
-              {
-                "diagram": {
-                  "url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-retrieval-augmented-generation/main/reference-architecture/rag-stack.svg",
-                  "caption": "Solution components",
-                  "type": "image/svg+xml",
-                  "thumbnail_url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-retrieval-augmented-generation/main/reference-architecture/rag-stack.svg"
-                },
-                "description": "Solution components"
-              }
+								"diagram": {
+									"url": "https://github.com/terraform-ibm-modules/stack-ibm-genai/blob/e50cb8de7bf854d3b0e021697f1a84b5686959e8/reference-architecture/genai-stack-ext.svg",
+									"caption": "Solution components",
+									"type": "image/svg+xml",
+									"thumbnail_url": "https://github.com/terraform-ibm-modules/stack-ibm-genai/blob/e50cb8de7bf854d3b0e021697f1a84b5686959e8/reference-architecture/genai-stack-ext.svg"
+								},
+								"description": "Solution components"
+							}
             ]
           },
           "dependencies": [
