@@ -179,8 +179,7 @@
             {
               "name": "testing-deploy-arch-ibm-observability",
               "flavors": [
-                "instances",
-                "agents"
+                "standard"
               ],
               "id": "daf2cf91-2384-4205-b7f4-621299a4896d-global",
               "version": ">=1.0.7",
