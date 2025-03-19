@@ -14,7 +14,7 @@
 			"required": false,
 			"type": "string",
 			"hidden": false,
-			"default": "us-south",
+			"default": "eu-de",
 			"description": "The region in which all resources are deployed.",
 			"custom_config": {}
 		},
@@ -321,7 +321,9 @@
 				},
 				{
 					"name": "profile_attachments",
-					"value": ["AI ICT Guardrails"]
+					"value": [
+						"AI ICT Guardrails"
+					]
 				},
 				{
 					"name": "scc_en_email_list",
