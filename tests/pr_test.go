@@ -1,9 +1,10 @@
 package tests
 
 import (
+	"testing"
+
 	"github.com/stretchr/testify/assert"
 	"github.com/terraform-ibm-modules/ibmcloud-terratest-wrapper/testprojects"
-	"testing"
 )
 
 func TestProjectsFullTest(t *testing.T) {
