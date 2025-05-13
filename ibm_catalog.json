@@ -1,287 +1,287 @@
 {
-	"products": [
-		{
-			"label": "WatsonX Generative AI",
-			"name": "watsonx_generative_ai",
-			"product_kind": "solution",
-			"tags": [
-				"watson",
-				"watsonx.ai",
-				"ibm_created"
-			],
-			"keywords": [
-				"watson",
-				"watsonx",
-				"ai"
-			],
-			"short_description": "Deploy Watsonx.ai SaaS with Assistant and Governance to automate the deployment and setup of the IBM watsonx platform.",
-			"long_description": "The Watsonx.ai SaaS with Assistant and Governance deployable architecture easily deploys and embeds AI across your business, manages all data sources, and accelerates responsible AI workflows on one platform.",
-			"provider_name": "IBM",
-			"offering_docs_url": "https://cloud.ibm.com/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-overview",
-			"support_details": "This is a proof of concept and no official support is given.",
-			"features": [
-				{
-					"title": "Build with watsonx applications",
-					"description": "watsonx combines the power of watsonx.ai studio for AI with the scale of watsonx.data store, enabling the creation of next-generation AI."
-				},
-				{
-					"title": "Develop with Watson Studio",
-					"description": "Develop sophisticated machine learning models using Notebooks and code-free tools to infuse AI throughout your business."
-				},
-				{
-					"title": "Deliver and build conversational interfaces with watsonx Assistant",
-					"description": "IBM watsonx Assistant lets you build conversational interfaces into any application, device, or channel."
-				},
-				{
-					"title": "Integrate predictive capabilities with Watson Machine Learning",
-					"description": "Deploy, manage, and integrate machine learning models into your applications and services in as little as one click."
-				},
-				{
-					"title": "Accelerate buisness decisions Watson Discovery",
-					"description": "Watson Discovery adds a cognitive search and content analytics engine to applications."
-				},
-				{
-					"title": "Manage and monitor with watsonx.governance",
-					"description": "IBM watsonx.governance™ helps you direct, manage, and monitor your organization's AI activities."
-				}
-			],
-			"flavors": [
-				{
-					"label": "Standard",
-					"name": "genai-stack-standard",
-					"licenses": [
-						{
-							"id": "LICENSE",
-							"name": "LICENSE",
-							"type": "text/plain",
-							"description": "LICENSE"
-						}
-					],
-					"compliance": {
-						"authority": "scc-v3",
-						"profiles": [
-							{
-								"profile_name": "AI ICT Guardrails",
-								"profile_version": "1.0.0"
-							}
-						]
-					},
-					"iam_permissions": [
-						{
-							"service_name": "iam-groups",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Administrator"
-							]
-						},
-						{
-							"service_name": "cloud-object-storage",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::serviceRole:Manager",
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "iam-identity",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Administrator"
-							]
-						},
-						{
-							"service_name": "atracker",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::serviceRole:Writer",
-								"crn:v1:bluemix:public:iam::::role:Administrator"
-							]
-						},
-						{
-							"service_name": "kms",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::serviceRole:Manager",
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "compliance",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::serviceRole:Manager",
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "pm-20",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "data-science-experience",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "aiopenscale",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "conversation",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						},
-						{
-							"service_name": "discovery",
-							"role_crns": [
-								"crn:v1:bluemix:public:iam::::role:Editor"
-							]
-						}
-					],
-					"architecture": {
-						"features": [
-							{
-								"title": "Ensure Observability",
-								"description": "The architecture provides observability by deploying services such as IBM Log Analysis, IBM Monitoring, IBM Activity Tracker, and log retention through Cloud Object Storage buckets."
-							},
-							{
-								"title": "Implement Security",
-								"description": "The architecture ensures security by deploying IBM Key Protect and IBM Secrets Manager."
-							},
-							{
-								"title": "Achieve Regulatory Compliance",
-								"description": "The architecture ensures regulatory compliance with IBM Security Compliance Center (SCC)."
-							},
-							{
-								"title": "Establish Trust",
-								"description": "The architecture ensures trust by configuring the IBM Cloud account to align with compliance settings as defined in the Financial Services framework."
-							}
-						],
-						"diagrams": [
-							{
-								"diagram": {
-									"url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-ibm-genai/main/reference-architecture/Genai Pattern v2-part-2.svg",
-									"caption": "Reference architecture",
-									"type": "image/svg+xml",
-									"thumbnail_url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-ibm-genai/main/reference-architecture/Genai Pattern v2-part-2.svg"
-								},
-								"description": "Reference architecture"
-							},
-							{
-								"diagram": {
-									"url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-ibm-genai/main/reference-architecture/genai-stack.png",
-									"caption": "Solution components",
-									"type": "image/svg+xml",
-									"thumbnail_url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-ibm-genai/main/reference-architecture/genai-stack.png"
-								},
-								"description": "Solution components"
-							}
-						]
-					},
-					"configuration": [
-						{
-							"key": "prefix",
-							"type": "string",
-							"default_value": "gen-ai",
-							"description": "A prefix added to the name of all resources created by this solution. Used to avoid name clashes in the target account when existing this solution multiple times.",
-							"required": true
-						},
-						{
-							"key": "region",
-							"type": "string",
-							"default_value": "us-south",
-							"description": "The region in which all resources are deployed.",
-							"required": false,
-							"options": [
-								{
-									"displayname": "us-south",
-									"value": "us-south"
-								},
-								{
-									"displayname": "eu-de",
-									"value": "eu-de"
-								}
-							]
-						},
-						{
-							"key": "resource_group_name",
-							"type": "string",
-							"default_value": "genai-services",
-							"description": "The name of the resource group that is created by this solution. The actual name is prefixed with the value of the input 'prefix'.  All resources created by this solution are deployed in this resource group.",
-							"required": false
-						},
-						{
-							"key": "watsonx_admin_api_key",
-							"type": "password",
-							"description": "The API key used to provision the watson project resources. If not set, the API key used to deploy the solution is used.",
-							"required": false
-						},
-						{
-							"key": "secret_manager_service_plan",
-							"type": "string",
-							"default_value": "trial",
-							"description": "The service/pricing plan to use when provisioning a new Secrets Manager instance. Only one trial instance is allowed per account.",
-							"required": false,
-							"options": [
-								{
-									"displayname": "Trial",
-									"value": "trial"
-								},
-								{
-									"displayname": "Standard",
-									"value": "standard"
-								}
-							]
-						},
-						{
-							"key": "existing_secrets_manager_crn",
-							"type": "string",
-							"default_value": "__NULL__",
-							"description": "The CRN of an existing secret manager instance to use in this solution. If not set, a new secret manager instance is provisioned.",
-							"required": false
-						},
-						{
-							"key": "enable_platform_logs_metrics",
-							"type": "boolean",
-							"default_value": false,
-							"description": "Whether to provision logging and monitoring instances are configured to receive all platform logs and metrics in the target region. There can only be one instance per region provisioned for platform logs/metrics.",
-							"required": false
-						},
-						{
-							"key": "existing_kms_instance_crn",
-							"type": "string",
-							"default_value": "__NULL__",
-							"description": "The CRN of an existing KMS instance to use in this solution. If not set, a new KP instance is provisioned.",
-							"required": false
-						},
-						{
-							"key": "en_email_list",
-							"type": "array",
-							"default_value": [],
-							"description": "List of emails to configure event notifications.",
-							"required": false
-						},
-						{
-							"key": "scc_service_plan",
-							"type": "string",
-							"default_value": "security-compliance-center-standard-plan",
-							"description": "The pricing plan to use for the IBM Cloud Security and Compliance Center.",
-							"required": false,
-							"options": [
-								{
-									"displayname": "standard",
-									"value": "security-compliance-center-standard-plan"
-								},
-								{
-									"displayname": "trial",
-									"value": "security-compliance-center-trial-plan"
-								}
-							]
-						}
-					],
-					"install_type": "fullstack"
-				}
-			]
-		}
-	]
+  "products": [
+    {
+      "label": "WatsonX Generative AI",
+      "name": "watsonx_generative_ai",
+      "product_kind": "solution",
+      "tags": [
+        "watson",
+        "watsonx.ai",
+        "ibm_created"
+      ],
+      "keywords": [
+        "watson",
+        "watsonx",
+        "ai"
+      ],
+      "short_description": "Deploy Watsonx.ai SaaS with Assistant and Governance to automate the deployment and setup of the IBM watsonx platform.",
+      "long_description": "The Watsonx.ai SaaS with Assistant and Governance deployable architecture easily deploys and embeds AI across your business, manages all data sources, and accelerates responsible AI workflows on one platform.",
+      "provider_name": "IBM",
+      "offering_docs_url": "https://cloud.ibm.com/docs/watsonx-ai-saas-automation?topic=watsonx-ai-saas-automation-overview",
+      "support_details": "This is a proof of concept and no official support is given.",
+      "features": [
+        {
+          "title": "Build with watsonx applications",
+          "description": "watsonx combines the power of watsonx.ai studio for AI with the scale of watsonx.data store, enabling the creation of next-generation AI."
+        },
+        {
+          "title": "Develop with Watson Studio",
+          "description": "Develop sophisticated machine learning models using Notebooks and code-free tools to infuse AI throughout your business."
+        },
+        {
+          "title": "Deliver and build conversational interfaces with watsonx Assistant",
+          "description": "IBM watsonx Assistant lets you build conversational interfaces into any application, device, or channel."
+        },
+        {
+          "title": "Integrate predictive capabilities with Watson Machine Learning",
+          "description": "Deploy, manage, and integrate machine learning models into your applications and services in as little as one click."
+        },
+        {
+          "title": "Accelerate buisness decisions Watson Discovery",
+          "description": "Watson Discovery adds a cognitive search and content analytics engine to applications."
+        },
+        {
+          "title": "Manage and monitor with watsonx.governance",
+          "description": "IBM watsonx.governance™ helps you direct, manage, and monitor your organization's AI activities."
+        }
+      ],
+      "flavors": [
+        {
+          "label": "Standard",
+          "name": "genai-stack-standard",
+          "licenses": [
+            {
+              "id": "LICENSE",
+              "name": "LICENSE",
+              "type": "text/plain",
+              "description": "LICENSE"
+            }
+          ],
+          "compliance": {
+            "authority": "scc-v3",
+            "profiles": [
+              {
+                "profile_name": "AI ICT Guardrails",
+                "profile_version": "1.0.0"
+              }
+            ]
+          },
+          "iam_permissions": [
+            {
+              "service_name": "iam-groups",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::role:Administrator"
+              ]
+            },
+            {
+              "service_name": "cloud-object-storage",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "iam-identity",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::role:Administrator"
+              ]
+            },
+            {
+              "service_name": "atracker",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+                "crn:v1:bluemix:public:iam::::role:Administrator"
+              ]
+            },
+            {
+              "service_name": "kms",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "compliance",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "pm-20",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "data-science-experience",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "aiopenscale",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "conversation",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            },
+            {
+              "service_name": "discovery",
+              "role_crns": [
+                "crn:v1:bluemix:public:iam::::role:Editor"
+              ]
+            }
+          ],
+          "architecture": {
+            "features": [
+              {
+                "title": "Ensure Observability",
+                "description": "The architecture provides observability by deploying services such as IBM Log Analysis, IBM Monitoring, IBM Activity Tracker, and log retention through Cloud Object Storage buckets."
+              },
+              {
+                "title": "Implement Security",
+                "description": "The architecture ensures security by deploying IBM Key Protect and IBM Secrets Manager."
+              },
+              {
+                "title": "Achieve Regulatory Compliance",
+                "description": "The architecture ensures regulatory compliance with IBM Security Compliance Center (SCC)."
+              },
+              {
+                "title": "Establish Trust",
+                "description": "The architecture ensures trust by configuring the IBM Cloud account to align with compliance settings as defined in the Financial Services framework."
+              }
+            ],
+            "diagrams": [
+              {
+                "diagram": {
+                  "url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-ibm-genai/main/reference-architecture/Genai Pattern v2-part-2.svg",
+                  "caption": "Reference architecture",
+                  "type": "image/svg+xml",
+                  "thumbnail_url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-ibm-genai/main/reference-architecture/Genai Pattern v2-part-2.svg"
+                },
+                "description": "Reference architecture"
+              },
+              {
+                "diagram": {
+                  "url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-ibm-genai/main/reference-architecture/genai-stack.png",
+                  "caption": "Solution components",
+                  "type": "image/svg+xml",
+                  "thumbnail_url": "https://raw.githubusercontent.com/terraform-ibm-modules/stack-ibm-genai/main/reference-architecture/genai-stack.png"
+                },
+                "description": "Solution components"
+              }
+            ]
+          },
+          "configuration": [
+            {
+              "key": "prefix",
+              "type": "string",
+              "default_value": "gen-ai",
+              "description": "A prefix added to the name of all resources created by this solution. Used to avoid name clashes in the target account when existing this solution multiple times.",
+              "required": true
+            },
+            {
+              "key": "region",
+              "type": "string",
+              "default_value": "us-south",
+              "description": "The region in which all resources are deployed.",
+              "required": false,
+              "options": [
+                {
+                  "displayname": "us-south",
+                  "value": "us-south"
+                },
+                {
+                  "displayname": "eu-de",
+                  "value": "eu-de"
+                }
+              ]
+            },
+            {
+              "key": "resource_group_name",
+              "type": "string",
+              "default_value": "genai-services",
+              "description": "The name of the resource group that is created by this solution. The actual name is prefixed with the value of the input 'prefix'.  All resources created by this solution are deployed in this resource group.",
+              "required": false
+            },
+            {
+              "key": "watsonx_admin_api_key",
+              "type": "password",
+              "description": "The API key used to provision the watson project resources. If not set, the API key used to deploy the solution is used.",
+              "required": false
+            },
+            {
+              "key": "secret_manager_service_plan",
+              "type": "string",
+              "default_value": "trial",
+              "description": "The service/pricing plan to use when provisioning a new Secrets Manager instance. Only one trial instance is allowed per account.",
+              "required": false,
+              "options": [
+                {
+                  "displayname": "Trial",
+                  "value": "trial"
+                },
+                {
+                  "displayname": "Standard",
+                  "value": "standard"
+                }
+              ]
+            },
+            {
+              "key": "existing_secrets_manager_crn",
+              "type": "string",
+              "default_value": "__NULL__",
+              "description": "The CRN of an existing secret manager instance to use in this solution. If not set, a new secret manager instance is provisioned.",
+              "required": false
+            },
+            {
+              "key": "enable_platform_logs_metrics",
+              "type": "boolean",
+              "default_value": false,
+              "description": "Whether to provision logging and monitoring instances are configured to receive all platform logs and metrics in the target region. There can only be one instance per region provisioned for platform logs/metrics.",
+              "required": false
+            },
+            {
+              "key": "existing_kms_instance_crn",
+              "type": "string",
+              "default_value": "__NULL__",
+              "description": "The CRN of an existing KMS instance to use in this solution. If not set, a new KP instance is provisioned.",
+              "required": false
+            },
+            {
+              "key": "en_email_list",
+              "type": "array",
+              "default_value": [],
+              "description": "List of emails to configure event notifications.",
+              "required": false
+            },
+            {
+              "key": "scc_service_plan",
+              "type": "string",
+              "default_value": "security-compliance-center-standard-plan",
+              "description": "The pricing plan to use for the IBM Cloud Security and Compliance Center.",
+              "required": false,
+              "options": [
+                {
+                  "displayname": "standard",
+                  "value": "security-compliance-center-standard-plan"
+                },
+                {
+                  "displayname": "trial",
+                  "value": "security-compliance-center-trial-plan"
+                }
+              ]
+            }
+          ],
+          "install_type": "fullstack"
+        }
+      ]
+    }
+  ]
 }
